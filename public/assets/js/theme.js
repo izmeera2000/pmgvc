@@ -19,6 +19,21 @@ $('document').ready(function() {
 });
 
 $('document').ready(function() {
+  $('#bop').owlCarousel({
+    nav: false,
+    dots: false,
+    navText: ["<span class='mai-arrow-back'></span>", "<span class='mai-arrow-forward'></span>"],
+    responsive: {
+      576: {
+        items: 1
+      }
+
+    }
+  });
+});
+
+
+$('document').ready(function() {
   $('#perbincangan').owlCarousel({
     nav: true,
     dots: false,
