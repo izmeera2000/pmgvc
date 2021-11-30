@@ -689,7 +689,7 @@ for (var i = 2; i > 0; i--) {
 };
 
 //oc
-for (var i = 15; i > 0; i--) {
+for (var i = 17; i > 0; i--) {
   citem8.innerHTML += '<div class="item oc"><img loading="lazy" src="assets/img/anugerah/OTHER_CHALLENGE/img-'+ i + '.webp" class="d-block" alt="..."></div>';
 };
 

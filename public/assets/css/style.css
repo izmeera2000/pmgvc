@@ -72,6 +72,17 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(360deg);
   }
 }
+
+#preloader p{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 50%;
+  /* top:0; */
+  display: inline-block;
+  text-align: center;
+  margin-bottom: -5em;
+} 
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
