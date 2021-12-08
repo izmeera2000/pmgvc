@@ -615,8 +615,9 @@ $(document).ready(function () {
   })
 
 
+
   owl3.owlCarousel({
-    stagePadding: 00,
+    stagePadding: 0,
     lazyLoad: true,
     autoWidth: false,
     dots: false,
